@@ -23,6 +23,9 @@ const createdets = (event) => {
     alertdel.addEventListener("click", () => {
       alert.className = "custom-alert-box-deleted";
     })
+    setTimeout(function(){
+      alert.className = "custom-alert-box-deleted"; 
+   }, 5005);
     return alert;
   }
 
